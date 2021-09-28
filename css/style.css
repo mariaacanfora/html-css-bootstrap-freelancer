@@ -1,0 +1,71 @@
+:root{
+    --bs-dark-rgb: 44, 62, 80;
+    --bs-success-rgb: 26, 188, 156;
+
+}
+/************************************************/
+/************************************************/
+/************************************************/
+
+section{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+
+/************************************************/
+
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: white;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: rgb(26, 188, 156);
+    border-color: rgb(26, 188, 156);
+}
+
+.btn-success:hover, 
+.btn-primary:active,
+.btn-primary:focus{
+    color: #fff;
+    background-color: rgb(15, 105, 87);
+    border-color: rgb(15, 105, 87);
+}
+
+
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    color: #fff;
+    background-color: lightgray;
+    border-color: white;
+}
+
+.btn-primary:focus{
+    box-shadow: 0 0 0;
+}
+
+
+
+/************************************************/
+/************************************************/
+/************************************************/
+.line_decoration{
+    max-width: 20%;
+    height: 3px;
+}
+
+.star{
+    flex-grow: 0;
+}
+
+.label-border{
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
