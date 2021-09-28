@@ -1,7 +1,7 @@
 :root{
     --bs-dark-rgb: 44, 62, 80;
     --bs-success-rgb: 26, 188, 156;
-
+    --bs-secondary-rgb: 58, 84, 109;
 }
 /************************************************/
 /************************************************/
@@ -68,4 +68,29 @@ section{
     border: none;
     border-bottom: 1px solid #ced4da;
     border-radius: 0;
+}
+
+.square{
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+#footer-link{
+    color:rgb(26, 188, 156);
+    text-decoration: none;
+}
+
+#footer-link:hover{
+    color: rgb(15, 105, 87)
+}
+
+.bg-secondary-2{
+    background-color: rgb(44, 62, 80);
+}
+
+.rem_0_7{
+    font-size: 0.7rem;
 }
