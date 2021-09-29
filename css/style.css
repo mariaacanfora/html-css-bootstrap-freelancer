@@ -17,27 +17,25 @@ section{
 /************************************************/
 /* BS UTILITIES */
 /************************************************/
+.navbar-expand-md .navbar-nav .nav-link{
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: white;
+}
+
+.navbar-dark .navbar-toggler:hover {
+    background-color: rgb(121, 121, 121);
+    border-color: rgb(121, 121, 121);
+}
 
 .btn-primary {
     color: #fff;
     background-color: transparent;
     border-color: white;
 }
-
-.btn-success {
-    color: #fff;
-    background-color: rgb(26, 188, 156);
-    border-color: rgb(26, 188, 156);
-}
-
-.btn-success:hover, 
-.btn-primary:active,
-.btn-primary:focus{
-    color: #fff;
-    background-color: rgb(15, 105, 87);
-    border-color: rgb(15, 105, 87);
-}
-
 
 
 .btn-primary:hover,
@@ -53,18 +51,18 @@ section{
 }
 
 
-.navbar-expand-md .navbar-nav .nav-link{
-    color: white;
-    font-weight: 500;
-}
+.btn-success {
+    color: #fff;
+    background-color: rgb(26, 188, 156);
+    border-color: rgb(26, 188, 156);
+} 
 
-.navbar-dark .navbar-toggler{
-    border-color: white;
-}
-
-.navbar-dark .navbar-toggler:hover {
-    background-color: rgb(121, 121, 121);
-    border-color: rgb(121, 121, 121);
+.btn-success:hover, 
+.btn-primary:active,
+.btn-primary:focus{
+    color: #fff;
+    background-color: rgb(15, 105, 87);
+    border-color: rgb(15, 105, 87);
 }
 
 
