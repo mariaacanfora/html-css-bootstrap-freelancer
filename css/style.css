@@ -85,8 +85,8 @@ section{
 }
 
 .square{
-    width: 3rem;
-    line-height: 3rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
     text-align: center;
     display: inline-block;
     margin: 0 3px;
