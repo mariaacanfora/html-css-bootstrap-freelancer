@@ -117,6 +117,51 @@ h2{
     font-size: 0.7rem;
 }
 
+.card-body{
+    background-color: rgba(0, 0, 0, 0.336);    
+    display: none; 
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: calc(100% - 24px);
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.card:hover .card-body{
+    color: white;
+    display: inline-block;
+    height: 100%;
+}
+
+img{
+    transition: all .1s;
+}
+
+.card:hover img{
+    border-radius: .75rem;
+    filter: blur(2px);
+}
+
+footer a:nth-child(2):hover{
+    background-color: #3b5998;
+}
+
+footer a:nth-child(3):hover{
+    background-color: #0F9D58;
+}
+
+footer a:nth-child(4):hover{
+    background-color: #1DA1F2;
+}
+
+footer a:nth-child(5):hover{
+    background-color: #0077b5;
+}
+
+
+
+
 
 
 /************************************************/
