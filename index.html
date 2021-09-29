@@ -18,18 +18,27 @@
 <body>
 
     <header>
-        <nav class="bg-dark">
-            <div class="container d-flex align-items-center py-4">
-            <h1 class="text-white fs-4 mb-0">START BOOTSTRAP</h1>
-            <div class="ms-auto d-none d-sm-inline">
-                <ul class="list-unstyled mb-0">
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark py-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h1 class="fs-4 mb-0">START BOOTSTRAP</h1></a>
 
-            <button class="btn btn-primary ms-auto fs-5 d-sm-none"><i class="fas fa-bars"></i></button>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
         </nav>
     </header>
